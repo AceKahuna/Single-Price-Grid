@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body{
+    background-color: #e6eff6;
+    font-family: "karla", sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.main{ 
+   text-align: left; 
+}
+
+.first{
+    background-color: #ffffff;
+    padding: 50px;   
+}
+
+.first > h2{
+    color: #2bb3b1;
+}
+
+.first > h3{
+    color: hsl(71, 73%, 54%);
+}
+
+.first > p{
+    color: hsl(218, 22%, 67%);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+.second{
+    display: flex;
+    color: #ffffff;
+    margin: 0;
+}
+
+/*left section*/
+.left{
+    background-color: #2bb3b1;
+    padding: 40px;
+    color: hsl(204, 43%, 93%);
+    width: 50%;
+}
+
+.left > h4{
+    color: white;
+}
+
+.price > span{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.price{
+    vertical-align: middle;
+}
+
+button{
+    background-color: hsl(71, 73%, 54%);
+    padding: 10px;
+    color: white;
+    margin: 0 auto;
+    border-radius: 8px;
+    width: 100%;
+}
+
+button :hover{
+    color: chocolate;
+    
+}
+
+/*right seticon*/
+.right{
+    background-color: #4abeba;
+    padding: 20px;
+    color:#ffffff;
+    width: 50%;
+}
+
+.right > p {
+    color: hsl(204, 43%, 93%);
+}
+
+
+/*Footer section*/
+
+footer > p{
+    text-align: center;
+}
+
+.attribution >a {
+    text-decoration: none;
+    color: rgb(223, 52, 103)
+}
